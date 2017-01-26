@@ -7,4 +7,5 @@ setTimeout(() => {
     if (err) return console.log('put error')
     console.log('put success')
   })
+  console.log(skiff.stats())
 }, 2000)
